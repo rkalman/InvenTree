@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-24 13:47+0000\n"
+"POT-Creation-Date: 2022-09-27 21:16+0000\n"
 "PO-Revision-Date: 2022-09-25 01:07\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
@@ -1886,7 +1886,7 @@ msgstr "Şablon"
 msgid "Parts are templates by default"
 msgstr "Parçaları varsayılan olan şablondur"
 
-#: common/models.py:958 part/models.py:894 templates/js/translated/bom.js:1471
+#: common/models.py:958 part/models.py:894 templates/js/translated/bom.js:1485
 #: templates/js/translated/table_filters.js:184
 #: templates/js/translated/table_filters.js:455
 msgid "Assembly"
@@ -7603,14 +7603,16 @@ msgstr ""
 
 #: templates/account/login.html:21
 #, python-format
-msgid "Please sign in with one\n"
+msgid ""
+"Please sign in with one\n"
 "of your existing third party accounts or  <a class=\"btn btn-primary btn-small\" href=\"%(signup_url)s\">sign up</a>\n"
 "for a account and sign in below:"
 msgstr ""
 
 #: templates/account/login.html:25
 #, python-format
-msgid "If you have not created an account yet, then please\n"
+msgid ""
+"If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
 msgstr ""
 
@@ -7806,7 +7808,7 @@ msgid "The following parts are low on required stock"
 msgstr ""
 
 #: templates/email/build_order_required_stock.html:18
-#: templates/js/translated/bom.js:1506
+#: templates/js/translated/bom.js:1520
 msgid "Required Quantity"
 msgstr ""
 
@@ -8183,7 +8185,7 @@ msgstr ""
 msgid "Edit substitute parts"
 msgstr ""
 
-#: templates/js/translated/bom.js:1147 templates/js/translated/bom.js:1309
+#: templates/js/translated/bom.js:1147 templates/js/translated/bom.js:1323
 msgid "Edit BOM Item"
 msgstr ""
 
@@ -8191,15 +8193,15 @@ msgstr ""
 msgid "Delete BOM Item"
 msgstr ""
 
-#: templates/js/translated/bom.js:1245 templates/js/translated/build.js:1666
+#: templates/js/translated/bom.js:1248 templates/js/translated/build.js:1666
 msgid "No BOM items found"
 msgstr ""
 
-#: templates/js/translated/bom.js:1489 templates/js/translated/build.js:1805
+#: templates/js/translated/bom.js:1503 templates/js/translated/build.js:1805
 msgid "Required Part"
 msgstr "Gerekli Parça"
 
-#: templates/js/translated/bom.js:1515
+#: templates/js/translated/bom.js:1529
 msgid "Inherited from parent BOM"
 msgstr ""
 
@@ -10656,4 +10658,3 @@ msgstr "Parçaları düzenleme izni"
 #: users/models.py:222
 msgid "Permission to delete items"
 msgstr "Parçaları silme izni"
-

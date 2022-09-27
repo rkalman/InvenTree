@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-24 13:47+0000\n"
+"POT-Creation-Date: 2022-09-27 21:16+0000\n"
 "PO-Revision-Date: 2022-09-25 01:08\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
@@ -1886,7 +1886,7 @@ msgstr "Vorlage"
 msgid "Parts are templates by default"
 msgstr "Teile sind standardmäßig Vorlagen"
 
-#: common/models.py:958 part/models.py:894 templates/js/translated/bom.js:1471
+#: common/models.py:958 part/models.py:894 templates/js/translated/bom.js:1485
 #: templates/js/translated/table_filters.js:184
 #: templates/js/translated/table_filters.js:455
 msgid "Assembly"
@@ -7603,14 +7603,16 @@ msgstr "Einloggen"
 
 #: templates/account/login.html:21
 #, python-format
-msgid "Please sign in with one\n"
+msgid ""
+"Please sign in with one\n"
 "of your existing third party accounts or  <a class=\"btn btn-primary btn-small\" href=\"%(signup_url)s\">sign up</a>\n"
 "for a account and sign in below:"
 msgstr "Bitte melden Sie sich mit einem Ihrer bestehenden Drittkonten an oder  <a class=\"btn btn-primary btn-small\" href=\"%(signup_url)s\">registrieren Sie sich</a> für ein Konto und melden Sie sich unten an:"
 
 #: templates/account/login.html:25
 #, python-format
-msgid "If you have not created an account yet, then please\n"
+msgid ""
+"If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
 msgstr "Wenn Sie noch kein Konto erstellt haben, dann bitte<a href=\"%(signup_url)s\">registrieren Sie sich</a> zuerst."
 
@@ -7806,7 +7808,7 @@ msgid "The following parts are low on required stock"
 msgstr "Bei den folgenden Teilen gibt es wenige Lagerartikel"
 
 #: templates/email/build_order_required_stock.html:18
-#: templates/js/translated/bom.js:1506
+#: templates/js/translated/bom.js:1520
 msgid "Required Quantity"
 msgstr "Benötigte Menge"
 
@@ -8183,7 +8185,7 @@ msgstr "Diese Position wurde kontrolliert"
 msgid "Edit substitute parts"
 msgstr "Ersatzteile bearbeiten"
 
-#: templates/js/translated/bom.js:1147 templates/js/translated/bom.js:1309
+#: templates/js/translated/bom.js:1147 templates/js/translated/bom.js:1323
 msgid "Edit BOM Item"
 msgstr "Stücklisten-Position bearbeiten"
 
@@ -8191,15 +8193,15 @@ msgstr "Stücklisten-Position bearbeiten"
 msgid "Delete BOM Item"
 msgstr "Stücklisten-Position löschen"
 
-#: templates/js/translated/bom.js:1245 templates/js/translated/build.js:1666
+#: templates/js/translated/bom.js:1248 templates/js/translated/build.js:1666
 msgid "No BOM items found"
 msgstr "Keine Stücklisten-Position(en) gefunden"
 
-#: templates/js/translated/bom.js:1489 templates/js/translated/build.js:1805
+#: templates/js/translated/bom.js:1503 templates/js/translated/build.js:1805
 msgid "Required Part"
 msgstr "benötigtes Teil"
 
-#: templates/js/translated/bom.js:1515
+#: templates/js/translated/bom.js:1529
 msgid "Inherited from parent BOM"
 msgstr "Geerbt von übergeordneter Stückliste"
 
@@ -10656,4 +10658,3 @@ msgstr "Berechtigungen Einträge zu ändern"
 #: users/models.py:222
 msgid "Permission to delete items"
 msgstr "Berechtigung Einträge zu löschen"
-
